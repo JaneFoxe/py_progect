@@ -1,6 +1,11 @@
 
 
-def two_numbers(a, b):
+def two_numbers_comp(a, b):
     return print(int(a) + int(b))
 
-two_numbers(input(), input())
+two_numbers_comp(7, 5)
+
+def two_numbers_subtract(a, b):
+    return print(int(a) - int(b))
+
+two_numbers_subtract(7, 5)
